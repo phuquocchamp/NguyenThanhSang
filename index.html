@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Georama:wght@200;300;500&amp;display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+	
+	<title>Music Player</title>
+</head>
+<body>
+	<!-- <script src="app.js"></script> -->
+	<div class="section">
+		<!-- Music Card -->	
+		<div class="section__background">
+			<img id="backgroundImage" class="section__background-image" src="./img/2.jpg" alt="">
+		</div>			
+		<div class="music-card__wrapper">
+		    <div class="music-card">
+			  <div class="music-card__content">
+				<img class="music-image" src="./img/2.jpg" alt="">
+				<div class="music-info">
+				    <h2 class="music-name">Happy birthday to you </h2>
+				    <p class="music-artist">Amee - Hoàng Dũng - Obito</p>
+				</div>
+				<audio src="./audio/HappyBirthdayToYou.mp3"></audio>
+				<div class="music-progress">
+				    <div id="progress-bar" class="music-progress-bar"></div>
+				    <div class="music-progress__time">
+					  <span class="music-progress__time-item music-current-time">00:00</span>
+					  <span class="music-progress__time-item music-duration-time">00:00</span>
+				    </div>
+				</div>
+				<div class="music-controls">
+				    <div id="prev" class="music-controls-item">
+					  <i class="fas fa-backward music-controls-item--icon"></i>
+				    </div>
+    
+				    <div id="play" class="music-controls-item">
+					  <i class="fas fa-play music-controls-item--icon play-icon"></i>
+					  <div class="play-icon-background"></div>
+				    </div>						
+    
+				    <div id="next" class="music-controls-item">
+					  <i class="fas fa-forward music-controls-item--icon"></i>
+				    </div>
+				</div>
+			  </div>
+		    </div>
+		</div>
+		Lyrics
+		<div class="music-card__lyrics">
+			<div class="music-card__panel">	
+				</br>
+				</br>
+				<h5>HAPPY BIRTHDAY Thanh Sang, </h5>
+				</br>
+				<h5>Lời đầu tiên, cảm ơn những đóng góp tích cực và các hoạt động năng nổ của bạn trong suốt thời gian vừa qua. Cảm ơn bạn vì đã trở thành một mảnh ghép yêu thương của Ban Online Training. Chúng mình hãy cùng phát triển và phát huy tinh thần “Pay It Forward” của chương trình nhé. </h5>
+				</br>
+				<h5>Hôm nay là ngày đặc biệt nhất của Sang. Support team chúc Sang sinh nhật vui vẻ và tuổi mới Sang sẽ tự tin vào bản thân hơn, luôn lạc quan, gặp nhiều may mắn và đạt được nhiều mục tiêu mình đã đề ra nhé. Thanh Sang luôn là một chàng trai vui vẻ và năng động, điềm tĩnh và đôi chút trầm mặc, chúng mình rất quý bạn và chúc bạn vẫn sẽ được nhiệt huyết như vậy nhé. </h5>
+				</br>
+				<h5>Chúng mình hi vọng hôm nay sẽ là một ngày bắt đầu cho một năm tuyệt vời của Sang nha.</h5>
+				</br>
+				<h5>Happy birthday Thanh Sang, </h5>
+				</br>
+				<h5>Thân ái,</h5>
+				</br>
+				<h5>Support team.</h5>
+			</div>
+		</div>	
+	</div>
+</body>
+	<script src="./app.js"></script>
+</html>
